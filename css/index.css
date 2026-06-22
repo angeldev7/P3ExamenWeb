@@ -212,7 +212,7 @@
     margin-bottom: 12px;
 }
 
-/* Classes Section */
+/* CLASES */
 .classes-section {
     background-color: #f5f5f5;
 }
@@ -311,16 +311,6 @@
     color: #333333;
 }
 
-/* BANNER DECORATIVO */
-.banner-paisaje {
-    height: 200px;
-    background-image: url('../img/paisaje.jpg');
-    background-repeat: no-repeat;
-    background-position: center;
-    background-size: cover;
-    background-attachment: fixed;
-}
-
 /* NOSOTROS */
 .info-section {
     background-color: #ffffff;
@@ -367,7 +357,9 @@
 
 /* LLAMADO A LA ACCION */
 .cta-section {
-    background-color: #E6E6FA;
+    background: linear-gradient(rgba(230, 230, 250, 0.85), rgba(230, 230, 250, 0.85)), url('../img/paisaje.jpg') no-repeat center center;
+    background-size: cover;
+    background-attachment: fixed;
     padding: 80px 20px;
 }
 
@@ -552,9 +544,6 @@
 
 /* MEDIA QUERY TABLETA */
 @media (min-width: 768px) {
-    .banner-paisaje {
-        height: 300px;
-    }
     .nav-container {
         flex-direction: row;
         justify-content: space-between;
@@ -604,9 +593,6 @@
 
 /* MEDIA QUERY ESCRITORIO */
 @media (min-width: 1366px) {
-    .banner-paisaje {
-        height: 380px;
-    }
     .nav-container {
         max-width: 1200px;
         margin: 0 auto;
